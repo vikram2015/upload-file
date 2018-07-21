@@ -1,0 +1,20 @@
+{
+  "name": "upload",
+  "version": "1.0.0",
+  "description": "this is the simple app for file upload",
+  "main": "server",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "author": "vikram",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "ejs": "^2.6.1",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.6",
+    "multer": "^1.3.0",
+    "nodemon": "^1.18.3"
+  }
+}
